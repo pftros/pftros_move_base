@@ -98,12 +98,12 @@ project(pftros_move_base)
 ## LIBRARIES: libraries you create in this project that dependent projects also need
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
-catkin_package(
+#catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES pftros_move_base
 #  CATKIN_DEPENDS move_base stdr_simulator
 #  DEPENDS system_lib
-)
+#)
 
 ###########
 ## Build ##
@@ -112,9 +112,9 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 # include_directories(include)
-include_directories(
-  ${catkin_INCLUDE_DIRS}
-)
+#include_directories(
+#  ${catkin_INCLUDE_DIRS}
+#)
 
 ## Declare a C++ library
 # add_library(pftros_move_base
